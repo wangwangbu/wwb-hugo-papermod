@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 往往不的攻略笔记</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on 往往不的攻略笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shell</title>
+      <link>http://example.org/tags/shell/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>http://example.org/tags/terminal/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>http://example.org/tags/vscode/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://example.org/tags/linux/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://example.org/tags/windows/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSL</title>
+      <link>http://example.org/tags/wsl/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/wsl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anaconda</title>
+      <link>http://example.org/tags/anaconda/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/anaconda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://example.org/tags/python/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>algorithm</title>
+      <link>http://example.org/tags/algorithm/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dfs</title>
+      <link>http://example.org/tags/dfs/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/dfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>状态压缩</title>
+      <link>http://example.org/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSCode Extension</title>
+      <link>http://example.org/tags/vscode-extension/</link>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/vscode-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>http://example.org/tags/tips/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

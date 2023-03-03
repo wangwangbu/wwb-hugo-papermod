@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>VSCode on 往往不的攻略笔记</title>
+    <link>http://example.org/tags/vscode/</link>
+    <description>Recent content in VSCode on 往往不的攻略笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://example.org/posts/blog/vscode-configuration/vscode-terminal/b-vscode_terminal/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/blog/vscode-configuration/vscode-terminal/b-vscode_terminal/</guid>
+      <description>VS Code Terminal Beautification in Win10 VS Code Terminal Beautification in Win10 想法 美化命令行 准备 安装模组 设置 PSReadline 设置oh-my-posh 使用 自定义主题 加载太慢问题 设置Vi编辑模式 美化 VSCode Terminal 美化 Windows Terminal 想</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/blog/vscode-configuration/vscode-python/b-vscode-python/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/blog/vscode-configuration/vscode-python/b-vscode-python/</guid>
+      <description>I-VSCode-Python 正常来说不涉及AI的Python代码编写，只需要在 Python官网中下载安装Python，在VS Code中安装Python插件，就能愉快地</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/posts/blog/vscode-configuration/vscode-snippets/b-vscode-snippets/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/blog/vscode-configuration/vscode-snippets/b-vscode-snippets/</guid>
+      <description>VS Code Snippets 介绍 VS Code 允许用户自定义代码段，通过自定义指令快速创建代码块。（ 官方文档） 代码块分两种： 全局代码块（在snippets目录下生成后缀名为</description>
+    </item>
+    
+  </channel>
+</rss>
