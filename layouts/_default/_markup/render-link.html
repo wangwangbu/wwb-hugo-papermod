@@ -1,4 +1,0 @@
-{{- $link_dest := .Destination -}}
-{{ $link_dest = (print "../" (path.Join $link_dest)) }}
-
-<a href="{{ $link_dest | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
