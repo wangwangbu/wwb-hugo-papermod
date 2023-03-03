@@ -28,12 +28,12 @@ permalinks: #浏览器链接显示方式
   post: "/:title/"
   # post: "/:year/:month/:day/:title/"
 
-# defaultContentLanguage: zh # 最顶部首先展示的语言页面
-# defaultContentLanguageInSubdir: true
+defaultContentLanguage: en # 最顶部首先展示的语言页面
+defaultContentLanguageInSubdir: true
 
 languages:
     en:
-      languageName: "Chinese"
+      languageName: "English"
       # contentDir: content/english
       weight: 1
       profileMode:
@@ -149,6 +149,7 @@ params:
     #         SiteVerificationTag: "XYZabc"
 
     assets:
+        disableFingerprinting: true
         # favicon: "img/Q.gif"
         # favicon16x16: "img/Q.gif"
         # favicon32x32: "img/Q.gif"
