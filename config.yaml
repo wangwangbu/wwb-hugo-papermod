@@ -39,7 +39,7 @@ languages:
       profileMode:
         enabled: true
         title: (˶˚ ᗨ ˚˶)
-        subtitle: "🎮游戏接入中。。。<br/>👏🏼欢迎访问玩家往往不的攻略<br/>👇连接分身数据流"
+        subtitle: "🎮游戏接入中。。。<br/>👏🏼欢迎访问，重构往往不数据成功✨<br/>👇连接分身数据流"
         # imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
         imageTitle: 
         imageWidth: 150
@@ -62,7 +62,7 @@ languages:
             url: /
             weight: 2
           - identifier: posts
-            name: 📚攻略
+            name: 📚升级
             url: posts
             weight: 3
           - identifier: archives
@@ -78,7 +78,7 @@ languages:
             url: about
             weight: 50
           - identifier: links
-            name: 🤝好友
+            name: 🚘转生
             url: links
             weight: 60
 
