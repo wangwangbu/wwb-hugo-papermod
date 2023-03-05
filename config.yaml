@@ -115,6 +115,7 @@ params:
 
     comments: true
 
+    ShowAllPagesInArchive: true
 
     socialIcons:
         - name: github

@@ -11,7 +11,7 @@
 
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 
-{{- if site.Params.ShowAllPagesInArchive }}
+{{- if .Site.Params.ShowAllPagesInArchive }}
 {{- $pages = site.RegularPages }}
 {{- end }}
 
@@ -19,11 +19,11 @@
 {{- if ne .Key "0001" }}
 <div class="archive-year">
   <h2 class="archive-year-header">
-    {{- replace .Key "0001" "" }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+    {{- replace .Key "0001" "" }}年<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
   </h2>
-  {{- range .Pages.GroupByDate "January" }}
+  {{- range .Pages.GroupByDate "1" }}
   <div class="archive-month">
-    <h3 class="archive-month-header">{{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
+    <h3 class="archive-month-header">{{- .Key }}月<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
     <div class="archive-posts">
       {{- range .Pages }}
       {{- if eq .Kind "page" }}
