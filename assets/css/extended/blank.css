@@ -7,6 +7,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     --nav-width: 1380px;
     --article-width: 650px;
     --toc-width: 300px;
+    --radius: 0px;
 }
 
 .toc {
@@ -88,4 +89,36 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 .toc li a:hover {
     color: var(--secondary);
+}
+
+/* mac style codeblock */
+
+.mac {
+    width:10px;
+    height:10px;
+    border-radius:5px;
+    float:left;
+    margin:10px 0 0 5px;
+}
+
+.b1 {
+    background:#E0443E;
+    margin-left: 10px;
+}
+.b2 { background:#DEA123; }
+.b3 { background:#1AAB29; }
+
+.warpper{
+    background:#1C1D21;
+    width: 100%;
+    height: 25px;
+}
+
+.myCodeblock {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.highlight {
+    margin: 0 !important;
 }
