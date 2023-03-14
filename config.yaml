@@ -1,4 +1,4 @@
-baseURL: https://wangwangbu.github.io/
+baseURL: https://www.wangwangbu.com/
 languageCode: zh-cn
 title: 往往不的攻略笔记
 theme: PaperMod # 主题名字，和themes文件夹下的一致
@@ -39,7 +39,7 @@ languages:
       profileMode:
         enabled: true
         title: (˶˚ ᗨ ˚˶)
-        subtitle: "🎮游戏接入中。。。<br/>👏🏼欢迎访问玩家往往不的攻略<br/>👇连接分身数据流"
+        subtitle: "🎮端口接入中。。。<br/>👏🏼欢迎访问，重构往往不数据成功✨<br/>👇连接分身数据流"
         # imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
         imageTitle: 
         imageWidth: 150
@@ -62,12 +62,12 @@ languages:
             url: /
             weight: 2
           - identifier: posts
-            name: 📚攻略
+            name: 📚升级
             url: posts
             weight: 3
           - identifier: archives
             name: 📝存档
-            url: archives/
+            url: archives
             weight: 20
           - identifier: tags
             name: 🏷️词条
@@ -78,7 +78,7 @@ languages:
             url: about
             weight: 50
           - identifier: links
-            name: 🤝好友
+            name: 🚘转生
             url: links
             weight: 60
 
@@ -107,13 +107,15 @@ params:
     ShowWordCounts: true
     VisitCount: true
 
-    ShowLastMod: true #显示文章更新时间
+    ShowLastMod: false # 显示文章更新时间
+    ShowAuthor: false # 显示作者
 
     ShowToc: true # 显示目录
     TocOpen: true # 自动展开目录
 
     comments: true
 
+    ShowAllPagesInArchive: true
 
     socialIcons:
         - name: github
@@ -139,7 +141,7 @@ params:
     #     appendFilePath: true # to append file path to Edit link
 
     label:
-      text: "往往不的攻略笔记"
+      text: "数据源——往往不"
       #icon: "img/Q.gif"
       # icon: "https://www.sulvblog.cn/Q.gif"
       iconHeight: 35
@@ -174,7 +176,7 @@ params:
       version: 1.4.11
 
 taxonomies:
-    type: type
+    type: type # 配合 foam，也可以使用 categories
     tag: tags
     series: series
 
@@ -189,10 +191,10 @@ markup:
         lineNos: true
         # noClasses: false
         # style: monokai
-        style: darcula
+        style: onedark
 
-        # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
-        # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
+        # codeFences: 代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。
+        # guessSyntax: 猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。
         # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
         # lineNoStart：行号从编号几开始，一般从 1 开始。
         # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.

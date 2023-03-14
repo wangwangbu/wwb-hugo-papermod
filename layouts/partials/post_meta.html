@@ -1,7 +1,7 @@
 {{- $scratch := newScratch }}
 <!-- 创建时间 -->
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "创建:&nbsp;<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
+{{- $scratch.Add "meta" (slice (printf "📅&nbsp;<span title='%s'>%s</span>" (.Date) (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)))) }}
 {{- end }}
 
 <!-- 更新时间 -->
@@ -11,18 +11,24 @@
 
 <!-- 统计字数 -->
 {{- if (.Param "ShowWordCounts") -}}
-{{- $scratch.Add "meta" (slice (default (printf "字数:&nbsp;%d字" .WordCount))) }}
+{{- $scratch.Add "meta" (slice (default (printf "✒️&nbsp;%d" .WordCount))) }}
 {{- end }}
 
 <!-- 大概需要花费的阅读时间 -->
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (default (printf "时长: %d分钟" .ReadingTime))) }}
+{{- $scratch.Add "meta" (slice (default (printf "⌛&nbsp;%d分钟" .ReadingTime))) }}
 {{- end }}
 
 <!-- 作者 -->
+{{- if (.Param "ShowAuthor") -}}
 {{- with (partial "author.html" .) }}
 {{- $scratch.Add "meta" (slice .) }}
 {{- end }}
+{{- end}}
+
+{{- if .Params.type }}
+{{- $scratch.Add "meta" (slice (default (printf "📁&nbsp;%s" .Params.type))) }}
+{{- end}}
 
 <!-- 分隔方式 -->
 {{- with ($scratch.Get "meta") }}

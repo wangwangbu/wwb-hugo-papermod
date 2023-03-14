@@ -17,7 +17,7 @@
       {{- partial "post_meta.html" . -}}
 
       <!--在头部显示可跳转的标签-->
-      &nbsp;|&nbsp;标签: &nbsp;
+      &nbsp;|&nbsp;🏷️&nbsp;
       {{- if .Params.tags }}
       <ul class="post-tags-meta">
           {{- range $index, $value := ($.GetTerms "tags") }}
