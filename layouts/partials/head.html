@@ -119,6 +119,9 @@
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
 {{ end -}}
 
+{{- /* Katex */}}
+{{ if .Params.math }}{{ partial "katex.html" . }}{{ end }}
+
 <noscript>
     <style>
         #theme-toggle,
