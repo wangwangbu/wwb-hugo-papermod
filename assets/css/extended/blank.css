@@ -117,6 +117,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 .myCodeblock {
     border-radius: 8px;
     overflow: hidden;
+    margin: 1rem 0;
 }
 
 .highlight {
